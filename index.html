@@ -52,7 +52,7 @@
         <section class="main-section">
             <div class="hero">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="main-section-btn" type="button">Заказать услугу</button>
+                <button class="main-section-btn" data-modal-open type="button">Заказать услугу</button>
             </div>
         </section>
         <!--Features section-->
@@ -349,9 +349,13 @@
     </main>
 
     <!--Hero-Modal-window-->
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="hero-modal">
-            <button class="hero-modal-close-btn"></button>
+            <button class="hero-modal-close-btn" data-modal-close>
+                <svg class="hero-modal-close-icon" width="11" height="11">
+                    <use href="./images/sprite-close-btn.svg#icon-close-btn"></use>
+                </svg>
+            </button>
         </div>
     </div>
 
@@ -403,5 +407,8 @@
             </div>
         </div>
     </footer>
+
+<!--Scripts-->
+<script src="./js/modal.js"></script>
 </body>
 </html>
