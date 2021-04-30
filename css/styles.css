@@ -139,6 +139,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--headers-nav-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .up-contacts-list-item {
   display: flex;
@@ -148,6 +149,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .up-contacts-icon {
   fill: currentColor;
@@ -306,6 +308,8 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-links-link:hover,
 .team-social-links-link:focus {
@@ -318,6 +322,7 @@ img {
 }
 .team-social-links-icon {
   fill: var(--svg-links-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*CLIENTS*/
@@ -335,6 +340,7 @@ img {
   height: 92px;
   border: 1px solid var(--svg-links-color);
   border-radius: 4px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-links-link:hover .clients-links-icon,
 .clients-links-link:focus .clients-links-icon {
@@ -365,6 +371,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--hero-footer-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-alfa {
   color: var(--alfa-color);
@@ -400,6 +407,7 @@ img {
   height: 44px;
   background-color: var(--footer-link-bgc);
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-links-link:hover,
 .footer-social-links-link:focus {
@@ -433,6 +441,7 @@ img {
   color: var(--noactbtn-color);
   border: 0;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -456,6 +465,7 @@ img {
 }
 .galery-list-link {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .galery-list-link:hover,
 .galery-list-link:focus {
